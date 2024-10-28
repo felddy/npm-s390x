@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check GitHub Status
-        uses: crazy-max/ghaction-github-status@df4d23a4977438215339cf0fafceda8d9af8a0e5 # tag=v4.0.0
+        uses: crazy-max/ghaction-github-status@6aadd1a8de5ca43c8e17a0633ef90e2178da5228 # tag=v4.1.0
         with:
           overall_threshold: major
           packages_threshold: major_outage
